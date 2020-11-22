@@ -1,0 +1,27 @@
+#header
+name: 吾言。
+description: 吾言甚易知，甚易行。天下莫能知，莫能行。言有宗，事有君，夫唯无知，是以不我知。知我者希，则我者贵。是以圣人被褐而怀玉。
+favicon: /fav.png
+ga: ''
+
+#nav
+nav:
+    首頁: /
+    歸卷: /archives/
+    # 關於: /about/
+    # 其他: /gallery/
+
+#post
+excerpt_link: 更多。
+
+
+#about me
+aboutMeImg: /about_me.jpg
+
+# github: https://github.com/yiliashaw
+# twitter: https://twitter.com/YiliaShaw
+# weibo: http://weibo.com/kathleenxiao
+
+#copyright
+themeLink: https://canmeng.net
+

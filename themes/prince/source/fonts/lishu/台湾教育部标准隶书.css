@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "台湾教育部标准隶书";
+  src: url("台湾教育部标准隶书.woff2") format("woff2"),
+       url("台湾教育部标准隶书.woff") format("woff"),
+       url("台湾教育部标准隶书.ttf") format("truetype"),
+       url("台湾教育部标准隶书.eot") format("embedded-opentype"),
+       url("台湾教育部标准隶书.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
