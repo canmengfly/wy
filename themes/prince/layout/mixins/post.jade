@@ -26,10 +26,10 @@ mixin posts()
         else
           .post-entry
             != item.content
-        .post-meta
-          a(href=url_for(item.path)).article-more= theme.excerpt_link
-          if (item.tags && item.tags.length >0)
-            .post-tags-box!= list_tags(item.tags,{show_count:false,style:null,saperator:','})
+        //- .post-meta
+        //-   a(href=url_for(item.path)).article-more= theme.excerpt_link
+        //-   if (item.tags && item.tags.length >0)
+        //-     .post-tags-box!= list_tags(item.tags,{show_count:false,style:null,saperator:','})
     - })
 
 mixin post(page)
