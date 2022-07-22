@@ -123,14 +123,17 @@ a img {
 @font-face {
   font-family: 'wyttf';
   /* src: url('../fonts/wyttf/qiji.woff2') format('woff2'); */
-  src: url('../fonts/lishu2/lishu2.woff2') format('woff2');
+   /* src: url('../fonts/lishu2/lishu2.woff2') format('woff2');*/
+   src: url('https://wuycdn.oss-accelerate.aliyuncs.com/lishu2.woff2') format('woff2');
 }
 
 @font-face {
   font-family: 'wyttf';
   /* src: url('../fonts/wyttf/qiji-combo.ttf') format('truetype'); */
   /* src: url('../fonts/wyttf/qiji.woff2') format('woff2'); */
-  src: url('../fonts/lishu2/lishu2.woff2') format('woff2');
+  /* src: url('../fonts/lishu2/lishu2.woff2') format('woff2');*/
+  src: url('https://wuycdn.oss-accelerate.aliyuncs.com/lishu2.woff2') format('woff2');
+  
   font-weight: bold;
 }
 
