@@ -1,5 +1,10 @@
 meta(charset='utf-8')
-title= config.title
+- var configt =  config.title 
+- var paget =  page.title
+- if (paget)
+    title #{paget}
+- else
+    title #{configt}
 meta(name="viewport", content="width=device-width, initial-scale=1")
 link(rel="icon", href="/favicon.png")
 link(href="/css/bootstrap.min.css", rel="stylesheet")
