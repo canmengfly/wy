@@ -1,6 +1,7 @@
 meta(charset='utf-8')
 -var configtitle = config.title
-title= page.title #{configtitle}
+-var pagetitle = page.title
+title= #{pagetitle} #{configtitle}
 meta(name="viewport", content="width=device-width, initial-scale=1")
 link(rel="icon", href="/favicon.png")
 link(href="/css/bootstrap.min.css", rel="stylesheet")
